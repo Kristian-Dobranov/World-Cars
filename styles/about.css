@@ -1,0 +1,13 @@
+#about {
+    width: 65%;
+    margin: 4rem auto;
+    padding: 2rem;
+    display: flex;
+    
+  }
+
+#about .card {
+  border-top: 4px solid red;
+  margin: 0.5rem 5rem;
+  
+}
