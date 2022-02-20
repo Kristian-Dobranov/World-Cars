@@ -1,0 +1,167 @@
+/*=================
+  3. Navigation
+==================*/
+.header {
+  width: 100%;
+  background-color: #fff5ff;
+  padding: 1rem;
+  z-index: 9000;
+}
+
+.logo__name {
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  border-left: 4px solid black;
+  margin-left: 4rem;
+}
+
+.logo__name h1:nth-child(1) { /* :nth-child() - Това е детето (в случая първото) на класа logo__name да се оцвети в червено */
+  color: red;
+}
+
+.logo__name h1 {
+  margin-left: 6px;
+}
+
+.header .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.header .navigation ul {
+  margin-right: 4rem;
+}
+
+.header .navigation ul li {
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.header .navigation ul li a {
+  font-weight: 500;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header .navigation ul li a:hover {
+  color: #ff0000;
+}
+
+.background__image {
+  height: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.background__image img {
+  width: 100%;
+}
+
+/* [OVERLAY] */
+.background__image::after { /* Това е кода за черния overlay върху снимката */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* [CONTENT] */
+.content { /* Текста върху снимката */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.content .hero__title {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 3.9rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  z-index: 2;
+}
+
+.content .hero__subtitle {
+  color: rgb(253, 253, 253);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0 0 1.4rem;
+  z-index: 2;
+}
+
+/* [Responsive navigation] */
+@media screen and (max-width: 700px) {
+  .header .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo__name {
+    margin-bottom: 10px;
+    margin-right: 6rem;
+  }
+}
+/* [Responsive navigation] */
+
+/* [Responsive text on img] */
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .content .hero__title {
+    font-size: 0.8rem;
+  }
+  .content .hero__subtitle {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .content .hero__title {
+    font-size: 1.2rem;
+  }
+
+  .content .hero__subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .content .hero__title {
+    font-size: 2rem;
+  }
+
+  .content .hero__subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+  .content .hero__title {
+    font-size: 3rem;
+  }
+
+  .content .hero__subtitle {
+    font-size: 1.5rem;
+  }
+}
+/* [Responsive img text] */
