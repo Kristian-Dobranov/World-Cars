@@ -3,7 +3,6 @@
 ==================*/
 .header {
   width: 100%;
-  background-color: #fff5ff;
   padding: 1rem;
   z-index: 9000;
 }
@@ -87,12 +86,13 @@
   transform: translate(-100%, -50%);
   z-index: 2;
   text-align: center;
+
 }
 
 .content .hero__title {
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 3.9rem;
+  font-size: 3.4rem;
   line-height: 1.1;
   margin: 0 0 1rem;
   z-index: 2;
