@@ -1,0 +1,26 @@
+.models{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #f6ecf6;
+    border-radius: 2rem;
+}
+
+.cars{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  font-weight: 500;
+}
+
+.car__container .box .box__img img{
+    width: 400px;
+    border-radius: 1rem;
+}
+

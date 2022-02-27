@@ -6,7 +6,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 0 2rem 2rem 2rem;
+  padding: 2rem 4rem 4rem 4rem;
+  border-bottom: 1.75px solid black;
 }
 
 .about__us {
