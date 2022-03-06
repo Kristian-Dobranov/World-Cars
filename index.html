@@ -26,10 +26,10 @@
             </a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#welcome">About</a></li>
                 <li><a href="#">Models</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -51,124 +51,133 @@
      | Main - START |
      ==============-->
     <main>
-        <!-- 3.[Cards] -->
+        <!-- 3.[Welcome] -->
+        <section class="welcome" id="welcome">
+            <h1 class="welcome__title">Welcome to our company</h1>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <button class="welcome__button">Read More</button>
+        </section>
 
-        <section id="about">
-            <!-- Card[1] -->
-            <div class="card">
-                <i class="fas fa-info-circle"></i>
-                <h2 class="card__title">About us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus at deleniti consequatur.
-                </p>
-
+        <!-- 4.[Models] -->
+        <section class="cars" id="cars">
+            <div class="heading">
+                <span>All Cars</span>
+                <h2>Find the model you want to know about</h2>
+                <div class="divider"></div>
             </div>
+            <!-- Container -->
+            <div class="cars-container container">
+                <!-- Model[1] -->
+                <div class="box">
+                    <img src="./images/model1.jpeg" alt="model_1">
+                    <h2>Audi</h2>
+                </div>
 
-            <!-- Card[2] -->
-            <div class="card">
-                <i class="fas fa-car"></i>
-                <h2 class="card__title">Find your model</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus at deleniti consequatur.
-                </p>
+                <!-- Model[2] -->
+                <div class="box">
+                    <img src="./images/model2.jpeg" alt="model_2">
+                    <h2>BMW</h2>
+                </div>
+                <!-- Model[3] -->
+                <div class="box">
+                    <img src="./images/model3.jpeg" alt="model_3">
+                    <h2>Mercedes</h2>
+                </div>
+                <!-- Model[4] -->
+                <div class="box">
+                    <img src="./images/model4.jpeg" alt="model_4">
+                    <h2>Honda</h2>
+                </div>
+
+                <!-- Model[5] -->
+                <div class="box">
+                    <img src="./images/model5.jpeg" alt="model_5">
+                    <h2>Volkswagen</h2>
+                </div>
+
+                <!-- Model[6] -->
+                <div class="box">
+                    <img src="./images/model6.jpeg" alt="model_6">
+                    <h2>Volvo</h2>
+                </div>
             </div>
+        </section>
 
-            <!-- Card[3] -->
-            <div class="card">
-                <i class="fab fa-readme"></i>
-                <h2 class="card__title">Read all about it</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus at deleniti consequatur.
-                </p>
+        <!-- 5.[Team] -->
+        <section id="team">
+            <h2 class="title">Our team</h2>
+            <div class="team__divider"></div>
+            <ul class="teamMembers">
+                <li class="teamMember">
+                    <img class="poster" src="./images/me.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="name">Кристиан Добранов</h3>
+                        <p class="job">Website creator</p>
+                        <p class="about">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                            numquam alias sint quasi ratione recusandae dicta, esse optio
+                            itaque porro.
+                        </p>
+                        <ul class="contacts">
+                            <li>
+                                <a href="https://github.com/Kristian-Dobranov" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/kristian.dobranov.1/" target="_blank"><i
+                                        class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/kristagram224/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="teamMember">
+                    <img class="poster" src="./images/me.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="name">Деян Димитров</h3>
+                        <p class="job">Website creator</p>
+                        <p class="about">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                            numquam alias sint quasi ratione recusandae dicta, esse optio
+                            itaque porro.
+                        </p>
+                        <ul class="contacts">
+                            <li>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/deqnd" target="_blank"><i
+                                        class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_dimitrov26/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+        </section>
+
+        <section class="subscribe">
+            <h1 class="subscribe__title">CONTACT YOUR EMAIL</h1>
+            <div class="subscribe__divider"></div>
+            <p>Sign up for our mailing list to get latest updates and cars.</p>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Email Adress..">
+                    <button class="subscribe__button">SUBMIT</button>
+                </form>
             </div>
         </section>
     </main>
-
-    <!-- 5.[Team] -->
-    <section id="team">
-        <h2 class="title">Our team</h2>
-
-        <ul class="teamMembers">
-            <li class="teamMember">
-                <img class="poster" src="./images/me.jpg" alt="" />
-                <div class="info">
-                    <h3 class="name">John Jameson</h3>
-                    <p class="job">Chief Writer</p>
-                    <p class="about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                        numquam alias sint quasi ratione recusandae dicta, esse optio
-                        itaque porro.
-                    </p>
-                    <ul class="contacts">
-                        <li>
-                            <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-envelope-square"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="teamMember">
-                <img class="poster" src="./images/me.jpg" alt="" />
-                <div class="info">
-                    <h3 class="name">John Jameson</h3>
-                    <p class="job">Chief Writer</p>
-                    <p class="about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                        numquam alias sint quasi ratione recusandae dicta, esse optio
-                        itaque porro.
-                    </p>
-                    <ul class="contacts">
-                        <li>
-                            <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-envelope-square"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-    </section>
-
-    <!-- 4.[Models] -->
-    <section class="models" id="models">
-        <div class="heading">
-            <h1>Models</h1>
-            <p>Explore Our Top Models</p>
-        </div>
-        <section class="cars">
-            <div class="car__container">
-                <div class="box">
-                    <div class="box__img">
-                        <img src="./images/model1.jpeg" alt="Audi">
-                    </div>
-                    <h3>Audi</h3>
-                </div>
-            </div>
-
-            <div class="car__container">
-                <div class="box">
-                    <div class="box__img">
-                        <img src="./images/model1.jpeg" alt="Audi">
-                    </div>
-                    <h3>Audi</h3>
-                </div>
-            </div>
-
-            <div class="car__container">
-                <div class="box">
-                    <div class="box__img">
-                        <img src="./images/model1.jpeg" alt="Audi">
-                    </div>
-                    <h3>Audi</h3>
-                </div>
-            </div>
-        </section>
-    </section>
     <!--==============
      | Main - END |
      ==============-->
@@ -178,6 +187,65 @@
     | Footer - START |
     ==============-->
     <footer>
+        <footer class="footer" id="footer">
+            <div class="quickLinks">
+                <h3>Quick Links</h3>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#welcome">
+                        <li>About Us</li>
+                    </a>
+                    <a href="">
+                        <li>Models</li>
+                    </a>
+                    <a href="#team">
+                        <li>Team</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="Services">
+                <h3>Services</h3>
+                <ul>
+                    <a href="">
+                        <li>Contact us</li>
+                    </a>
+                    <a href="">
+                        <li>Write us</li>
+                    </a>
+                    <a href="">
+                        <li>Call us</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="Adress">
+                <h3>Adress</h3>
+                <ul>
+                    <li>Pleven, Bulgaria</li>
+                    <br>
+                    <li>WorldCars@gmail.com</li>
+                    <li>(01) 800 854 633</li>
+                </ul>
+            </div>
+
+            <div class="Follow">
+                <h3>Follow us</h3>
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="legal">
+            Copyright © 2022 World Cars. All Rights Reserved. <a href="index.html">World Cars</a>
+        </div>
     </footer>
     <!--==============
     | Footer - END |

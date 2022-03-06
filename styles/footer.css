@@ -1,0 +1,46 @@
+.footer {
+  background-color: #2f3539;
+  color: #babdc3;
+  display: flex;
+  justify-content: center;
+  gap: 14rem;
+  padding: 2rem;
+}
+
+.footer a {
+  display: inline;
+  text-decoration: none;
+  color: #babdc3;
+  margin: 5px 5px;
+}
+
+.footer a:hover {
+  color: #f06666;
+}
+
+.footer h3 {
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+.footer .Adress ul{
+  margin-top: 1.75rem;
+}
+
+
+.footer .Follow .icons i{
+  font-size: 1.3rem;
+}
+.legal {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #262b2f;
+  color: #d4d8e0;
+}
+
+.legal a {
+  text-decoration: none;
+  color: rgb(85, 147, 228);
+}
+
+

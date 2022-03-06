@@ -1,0 +1,49 @@
+/*=================
+  4. About section
+==================*/
+
+.welcome {
+  padding: 3rem;
+  background-color: #f1eaf1;
+  text-align: center;
+}
+
+.welcome .welcome__title {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  color: #3b4856;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.divider {
+  border-top: 3px solid #ff0000;
+  width: 8%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.welcome p {
+  color: black;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.welcome__button {
+  font-weight: 500;
+  min-width: 120px;
+  font-size: 1rem;
+  width: 200px;
+  padding: 12px 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d83232;
+  color: white;
+  cursor: pointer;
+}
+
+.welcome__button:hover {
+  background-color: #b42626;
+}
