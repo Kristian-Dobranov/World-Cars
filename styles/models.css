@@ -1,3 +1,7 @@
+/*=================
+ 5. Models section
+==================*/
+
 .cars {
   width: 100%;
   margin: auto;
@@ -157,10 +161,11 @@
 .wrapper {
   width: 80%;
   margin: auto;
-  border-radius: 0.75rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   margin-top: 1.5rem;
   padding: 0.75rem;
-  background-color: #ff9e6e;
+  background-color: #FFA573;
 }
 
 .wrapper .search h2 {
