@@ -23,10 +23,9 @@
   color: white;
 }
 
-.footer .Adress ul{
-  margin-top: 1.75rem;
+.footer .Adress{
+  line-height: 1.5;
 }
-
 
 .footer .Follow .icons i{
   font-size: 1.3rem;

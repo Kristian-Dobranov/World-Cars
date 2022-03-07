@@ -2,7 +2,7 @@
   width: 100%;
   margin: auto;
   background-color: #FFF5FF;
-  padding: 2.5rem;
+  padding: 3rem;
 }
 
 .heading {
@@ -49,12 +49,12 @@
 
 .cars-container .box img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .cars-container .box h2 {
   position: absolute;
-  bottom: 1rem;
+  top: 1rem;
   left: 1rem;
   font-weight: 400;
   font-size: 1rem;
@@ -69,3 +69,76 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
+
+.cars-container .box:hover button{
+  color: white;
+  background-color: black;
+}
+
+.cars-container .box button{
+  padding: 0.6rem;
+  color: rgb(0, 0, 0);
+  background-color: #e0e2e7;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.cars-container .box button:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.read__button{
+  position: absolute;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  min-width: 120px;
+  font-size: 1rem;
+  width: 200px;
+  padding: 12px 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d83232;
+  color: white;
+  cursor: pointer;
+}
+
+.check__more{
+  margin-top: 2rem;
+  text-align: center;
+}
+.check__more .check{
+  font-weight: 500;
+  min-width: 120px;
+  font-size: 1rem;
+  width: 200px;
+  padding: 12px 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d83232;
+  color: white;
+  cursor: pointer;
+}
+
+.check__more .check:hover{
+  background-color: #b42626;
+}
+
+.search{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.search h2{
+  color: #3b4856;
+}
+
+
+
+
+
