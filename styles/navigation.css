@@ -1,6 +1,8 @@
 /*=================
   3. Navigation
 ==================*/
+
+/* [Navigation] */
 .header {
   width: 100%;
   padding: 1rem;
@@ -17,7 +19,6 @@
 }
 
 .logo__name h1:nth-child(1) {
-  /* :nth-child() - Това е детето (в случая първото) на класа logo__name да се оцвети в червено */
   color: red;
 }
 
@@ -54,6 +55,7 @@
   color: #ff0000;
 }
 
+/* [Hero] */
 .background__image {
   height: auto;
   position: relative;
@@ -67,9 +69,7 @@
   width: 100%;
 }
 
-/* [OVERLAY] */
 .background__image::after {
-  /* Това е кода за черния overlay върху снимката */
   content: "";
   position: absolute;
   top: 0;
@@ -80,9 +80,8 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* [CONTENT] */
+/* [Content] */
 .content {
-  /* Текста върху снимката */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -166,4 +165,3 @@
     font-size: 1.5rem;
   }
 }
-/* [Responsive img text] */

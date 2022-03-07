@@ -62,11 +62,11 @@
   transition: bottom 300ms ease-in-out;
 }
 
-#team .teamMember .info .job{
+#team .teamMember .info .job {
   font-style: italic;
 }
 
-#team .teamMember .info::after{
+#team .teamMember .info::after {
   content: "";
   position: absolute;
   top: 0;
@@ -78,11 +78,11 @@
   z-index: -1;
 }
 
-#team .teamMember .info p{
+#team .teamMember .info p {
   z-index: 1;
 }
 
-#team .teamMember .info .job{
+#team .teamMember .info .job {
   color: red;
 }
 
@@ -132,4 +132,23 @@
 
 .fa-instagram:hover {
   color: #d13f84;
+}
+
+@media screen and (max-width: 1644px) {
+
+  #team .teamMember{
+    width: 60%;
+    margin: auto;
+  }
+  #team .teamMember .poster {
+    width: 100%
+  }
+    
+  #team .teamMember .info {
+    bottom: -230px;
+  }
+
+  #team .teamMember .info h3{
+    font-size: 1.70rem;
+  }
 }

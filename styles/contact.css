@@ -4,21 +4,21 @@
   text-align: center;
 }
 
-.subscribe .subscribe__title,
-p {
-  color: white;
-}
-
 .subscribe .subscribe__title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
+.subscribe .subscribe__title,
+p {
+  color: white;
+}
+
 .subscribe__divider {
-  border-top: 3px solid #ffffff;
-  width: 8%;
   margin: auto;
   margin-bottom: 1rem;
+  width: 8%;
+  border-top: 3px solid #ffffff;
 }
 
 .subscribe p {
@@ -32,17 +32,17 @@ p {
 }
 
 .subscribe__button {
-  font-weight: 500;
-  min-width: 120px;
   font-size: 1rem;
-  border-radius: 4px;
-  width: 200px;
-  padding: 6px 6px;
-  border: 1px solid var(--color-blue);
-  background-color: #d83232;
-  color: white;
-  cursor: pointer;
   margin-left: 1rem;
+  padding: 6px 6px;
+  min-width: 120px;
+  width: 200px;
+  border: 1px solid var(--color-blue);
+  border-radius: 4px;
+  color: white;
+  background-color: #d83232;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .subscribe__button:hover {
