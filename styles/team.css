@@ -139,20 +139,57 @@
 }
 
 @media screen and (max-width: 1644px) {
-
-  #team .teamMember{
+  #team .teamMember {
     width: 60%;
     margin: auto;
   }
   #team .teamMember .poster {
-    width: 100%
+    width: 100%;
   }
-    
+
   #team .teamMember .info {
     bottom: -230px;
   }
 
-  #team .teamMember .info h3{
-    font-size: 1.70rem;
+  #team .teamMember .info h3 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1628px) {
+  #team .teamMember:nth-child(2) .info {
+    bottom: -250px;
+  }
+
+  #team .teamMember .info h3 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1554px) {
+  #team .teamMember .info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1534px) {
+  #team .teamMember:nth-child(1) .info {
+    bottom: -250px;
+  }
+
+  #team .teamMember .info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1478px) {
+  #team .teamMember:nth-child(2) .info {
+    bottom: -270px;
+  }
+}
+
+@media screen and (max-width: 1426px){
+  #team .teamMember:nth-child(1) .info {
+    bottom: -270px;
   }
 }
