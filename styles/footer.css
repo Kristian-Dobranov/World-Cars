@@ -6,9 +6,12 @@
   background-color: #2f3539;
   color: #babdc3;
   display: flex;
+  flex-shrink: 1;
   justify-content: center;
   gap: 14rem;
   padding: 2rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .footer h3 {

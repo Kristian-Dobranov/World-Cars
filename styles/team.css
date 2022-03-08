@@ -23,14 +23,15 @@
 }
 
 #team .teamMembers {
-  width: 40%;
   height: 500px;
   display: flex;
+  justify-content: center;
   margin: auto;
   gap: 2rem;
 }
 
 #team .teamMember {
+  max-width: 400px;
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
@@ -138,58 +139,12 @@
   color: #d13f84;
 }
 
-@media screen and (max-width: 1644px) {
-  #team .teamMember {
-    width: 60%;
-    margin: auto;
-  }
-  #team .teamMember .poster {
-    width: 100%;
-  }
+@media screen and (max-width: 1100px) {
 
-  #team .teamMember .info {
-    bottom: -230px;
-  }
-
-  #team .teamMember .info h3 {
-    font-size: 1.7rem;
-  }
-}
-
-@media screen and (max-width: 1628px) {
-  #team .teamMember:nth-child(2) .info {
-    bottom: -250px;
-  }
-
-  #team .teamMember .info h3 {
-    font-size: 1.7rem;
-  }
-}
-
-@media screen and (max-width: 1554px) {
-  #team .teamMember .info h3 {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 1534px) {
-  #team .teamMember:nth-child(1) .info {
-    bottom: -250px;
-  }
-
-  #team .teamMember .info h3 {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 1478px) {
-  #team .teamMember:nth-child(2) .info {
-    bottom: -270px;
-  }
-}
-
-@media screen and (max-width: 1426px){
-  #team .teamMember:nth-child(1) .info {
-    bottom: -270px;
+  #team .teamMembers{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
   }
 }
