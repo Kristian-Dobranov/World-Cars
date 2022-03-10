@@ -132,8 +132,7 @@
 }
 
 .search {
-  margin-top: 2rem;
-  text-align: center;
+  text-align: end;
 }
 
 .search h2 {
@@ -159,13 +158,14 @@
 }
 
 .wrapper {
-  width: 80%;
+  width: 71%;
   margin: auto;
-  border-bottom-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-radius: 2rem;
   margin-top: 1.5rem;
-  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
   background-color: #d6d6d6;
+  align-items: center;
 }
 
 .wrapper .search h2 {
