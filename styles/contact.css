@@ -30,7 +30,8 @@ p {
 }
 
 .form input {
-  padding: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 6px;
   width: 20%;
   background-color: #4c5257;
 }

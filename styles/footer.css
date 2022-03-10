@@ -29,11 +29,11 @@
   color: #f06666;
 }
 
-.footer .adress{
+.footer .adress {
   line-height: 1.5;
 }
 
-.footer .follow .icons i{
+.footer .follow .icons i {
   font-size: 1.3rem;
 }
 
@@ -49,4 +49,22 @@
   color: rgb(235, 108, 96);
 }
 
+@media screen and (max-width: 750px) {
+  
+  .footer{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+}
 
